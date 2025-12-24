@@ -224,8 +224,8 @@ export default function HomeScreen() {
         <iframe
           ref={musicIframeRef}
           className="background-music-iframe"
-          src="https://www.youtube.com/embed/6Yq_YFDL-jQ?autoplay=1&mute=0&loop=1&playlist=6Yq_YFDL-jQ&controls=0&showinfo=0&modestbranding=1&enablejsapi=1"
-          title="Raúl Di Blasio - Corazón de Niño"
+          src="https://www.youtube.com/embed/ks689l5ohhw?autoplay=1&mute=0&loop=1&playlist=ks689l5ohhw&controls=0&showinfo=0&modestbranding=1&enablejsapi=1"
+          title="Carlos Rivera - Te esperaba"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
