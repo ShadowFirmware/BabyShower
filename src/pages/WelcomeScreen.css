@@ -1,6 +1,6 @@
 .welcome-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #FFB6E1 0%, #FFC0E7 25%, #B8E6FF 50%, #C8EDFF 75%, #FFD4E8 100%);
+  background: linear-gradient(135deg, #FFB6E1 0%, #FFC0E7 25%, #FFD4E8 50%, #B8E6FF 50%, #C8EDFF 75%, #B8E6FF 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,11 @@
   background: 
     radial-gradient(circle at 15% 25%, rgba(255, 20, 147, 0.15) 0%, transparent 40%),
     radial-gradient(circle at 85% 75%, rgba(30, 144, 255, 0.15) 0%, transparent 40%),
-    radial-gradient(circle at 50% 50%, rgba(255, 105, 180, 0.1) 0%, transparent 60%);
+    radial-gradient(circle at 50% 50%, rgba(255, 105, 180, 0.08) 0%, transparent 60%),
+    radial-gradient(circle at 25% 80%, rgba(135, 206, 250, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 75% 20%, rgba(255, 182, 193, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 50% 20%, rgba(30, 144, 255, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 50% 80%, rgba(255, 20, 147, 0.1) 0%, transparent 40%);
   pointer-events: none;
   z-index: 0;
   animation: backgroundPulse 8s ease-in-out infinite;
@@ -128,7 +132,7 @@
   border: 2px solid transparent;
   background-image: 
     linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 240, 250, 0.95) 50%, rgba(240, 248, 255, 0.95) 100%),
-    linear-gradient(135deg, #FF69B4, #FF1493, #87CEEB, #1E90FF);
+    linear-gradient(135deg, #FF1493 0%, #FF69B4 25%, #FF69B4 50%, #87CEEB 50%, #87CEEB 75%, #1E90FF 100%);
   background-origin: border-box;
   background-clip: padding-box, border-box;
   max-width: 550px;
@@ -180,29 +184,32 @@
 .welcome-title {
   font-size: 32px;
   font-weight: 800;
-  background: linear-gradient(135deg, #FF1493 0%, #FF69B4 50%, #87CEEB 100%);
+  background: linear-gradient(135deg, #FF1493 0%, #FF69B4 20%, #FFB6C1 40%, #FFB6C1 50%, #87CEEB 50%, #87CEEB 60%, #4A90E2 80%, #1E90FF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   background-size: 200% 200%;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  animation: gradientShift 4s ease infinite;
-  filter: drop-shadow(0 2px 8px rgba(255, 105, 180, 0.3));
+  animation: gradientShift 6s ease-in-out infinite;
+  filter: drop-shadow(0 2px 8px rgba(255, 105, 180, 0.3)) drop-shadow(0 2px 8px rgba(135, 206, 250, 0.3));
 }
 
 @keyframes gradientShift {
-  0%, 100% {
+  0% {
     background-position: 0% 50%;
   }
   50% {
     background-position: 100% 50%;
   }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .welcome-name {
   font-size: 48px;
-  background: linear-gradient(135deg, #FF1493 0%, #FF69B4 50%, #87CEEB 100%);
+  background: linear-gradient(135deg, #FF1493 0%, #FF69B4 20%, #FFB6C1 40%, #FFB6C1 50%, #87CEEB 50%, #87CEEB 60%, #4A90E2 80%, #1E90FF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -211,17 +218,17 @@
   margin-bottom: 30px;
   font-weight: 700;
   line-height: 1.3;
-  animation: gradientShift 4s ease infinite;
-  filter: drop-shadow(0 2px 8px rgba(255, 105, 180, 0.3));
+  animation: gradientShift 6s ease-in-out infinite;
+  filter: drop-shadow(0 2px 8px rgba(255, 105, 180, 0.3)) drop-shadow(0 2px 8px rgba(135, 206, 250, 0.3));
 }
 
 .welcome-divider {
   height: 4px;
-  background: linear-gradient(90deg, #FF69B4 0%, #FF1493 50%, #87CEEB 100%);
+  background: linear-gradient(90deg, #FF1493 0%, #FF69B4 50%, #87CEEB 50%, #1E90FF 100%);
   width: 120px;
   margin: 0 auto 30px;
   border-radius: 4px;
-  box-shadow: 0 3px 8px rgba(255, 105, 180, 0.4);
+  box-shadow: 0 3px 8px rgba(255, 105, 180, 0.4), 0 3px 8px rgba(135, 206, 250, 0.4);
 }
 
 .welcome-subtitle {
@@ -239,7 +246,7 @@
   border: none;
   border-radius: 28px;
   padding: 18px 40px;
-  background: linear-gradient(135deg, #FF1493 0%, #FF69B4 50%, #87CEEB 100%);
+  background: linear-gradient(135deg, #FF1493 0%, #FF69B4 50%, #87CEEB 50%, #1E90FF 100%);
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 700;
@@ -278,7 +285,7 @@
     0 12px 35px rgba(255, 20, 147, 0.5),
     0 6px 18px rgba(30, 144, 255, 0.4),
     inset 0 1px 0 rgba(255, 255, 255, 0.4);
-  background: linear-gradient(135deg, #FF69B4 0%, #FF1493 50%, #1E90FF 100%);
+  background: linear-gradient(135deg, #FF1493 0%, #FF69B4 50%, #87CEEB 50%, #1E90FF 100%);
 }
 
 .welcome-button:active {
