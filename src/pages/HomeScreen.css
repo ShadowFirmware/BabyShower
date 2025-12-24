@@ -1812,3 +1812,535 @@
   position: relative;
   z-index: 1;
 }
+
+/* Media Queries para Móviles */
+@media (max-width: 768px) {
+  .home-section {
+    padding: 30px 20px;
+  }
+
+  .home-hero-section {
+    padding: 60px 20px 30px;
+  }
+
+  .home-hero-card {
+    padding: 35px 25px;
+    border-radius: 24px;
+  }
+
+  .icon-celebration {
+    font-size: 70px;
+  }
+
+  .home-main-title {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .home-subtitle {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .home-card {
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
+  .home-card-title {
+    font-size: 24px;
+  }
+
+  .home-card-subtitle {
+    font-size: 16px;
+  }
+
+  .parents-card {
+    padding: 35px 25px;
+    border-radius: 24px;
+  }
+
+  .parents-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .parents-divider {
+    margin-bottom: 25px;
+  }
+
+  .parents-names-container {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .parent-name {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .parent-icon {
+    font-size: 40px;
+  }
+
+  .parent-name-text {
+    font-size: 18px;
+  }
+
+  .parents-heart {
+    font-size: 30px;
+    transform: rotate(90deg);
+  }
+
+  .parents-subtitle {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .dresscode-card {
+    padding: 35px 25px;
+    border-radius: 24px;
+  }
+
+  .dresscode-title {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+
+  .dresscode-divider {
+    margin-bottom: 20px;
+  }
+
+  .dresscode-subtitle {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .dresscode-prediction {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+
+  .dresscode-option {
+    padding: 25px 20px;
+    border-radius: 20px;
+  }
+
+  .dresscode-divider-vertical {
+    width: 100%;
+    height: 2px;
+    margin: 0;
+  }
+
+  .baby-icon {
+    font-size: 50px;
+  }
+
+  .dresscode-option-title {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .dresscode-option-text {
+    font-size: 14px;
+  }
+
+  .dresscode-option-text strong {
+    font-size: 18px;
+  }
+
+  .dresscode-description {
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 15px;
+    padding-top: 15px;
+  }
+
+  .countdown-card {
+    padding: 40px 20px;
+  }
+
+  .countdown-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .countdown-container {
+    gap: 8px;
+    padding: 0 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .countdown-item {
+    max-width: 80px;
+    min-width: 60px;
+  }
+
+  .countdown-number {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+
+  .countdown-label {
+    font-size: 11px;
+  }
+
+  .countdown-separator {
+    font-size: 28px;
+    height: 40px;
+    padding: 0 3px;
+  }
+
+  .countdown-message {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .itinerary-section-card {
+    padding: 35px 25px;
+    border-radius: 24px;
+  }
+
+  .itinerary-header-title {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+  .itinerary-event-card {
+    padding: 20px;
+    border-radius: 18px;
+    margin-bottom: 15px;
+  }
+
+  .itinerary-icon {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
+  .itinerary-time {
+    font-size: 16px;
+  }
+
+  .itinerary-event-title {
+    font-size: 15px;
+    margin-left: 28px;
+  }
+
+  .location-section-card {
+    padding: 35px 25px;
+    border-radius: 24px;
+  }
+
+  .location-title {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+  .location-map-card {
+    padding: 25px 20px;
+    border-radius: 20px;
+  }
+
+  .location-pin-icon {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
+  .location-address {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .location-map-container {
+    height: 250px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+  }
+
+  .location-buttons-container {
+    gap: 12px;
+  }
+
+  .location-map-button {
+    padding: 14px 20px;
+    border-radius: 14px;
+  }
+
+  .location-button-icon {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+
+  .location-button-text {
+    font-size: 14px;
+  }
+
+  .rsvp-card {
+    padding: 35px 25px;
+    border-radius: 24px;
+  }
+
+  .rsvp-icon-container {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 25px;
+  }
+
+  .rsvp-icon {
+    font-size: 32px;
+  }
+
+  .rsvp-title {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+
+  .rsvp-divider {
+    margin-bottom: 20px;
+  }
+
+  .rsvp-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .rsvp-instruction {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .rsvp-button {
+    padding: 16px 30px;
+    border-radius: 22px;
+    max-width: 100%;
+  }
+
+  .rsvp-button-icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .rsvp-button-text {
+    font-size: 15px;
+  }
+
+  .rsvp-button-phone {
+    font-size: 13px;
+  }
+
+  .calendar-card {
+    padding: 35px 25px;
+    border-radius: 24px;
+  }
+
+  .calendar-heart-icon {
+    font-size: 40px;
+  }
+
+  .calendar-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .calendar-message {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+
+  .calendar-button {
+    padding: 14px 28px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+
+  .calendar-button-icon {
+    font-size: 18px;
+  }
+
+  .floating-icon {
+    font-size: 30px;
+  }
+}
+
+/* Media Queries para Móviles Pequeños */
+@media (max-width: 480px) {
+  .home-section {
+    padding: 25px 15px;
+  }
+
+  .home-hero-section {
+    padding: 50px 15px 25px;
+  }
+
+  .home-hero-card {
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+
+  .icon-celebration {
+    font-size: 60px;
+  }
+
+  .home-main-title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .home-subtitle {
+    font-size: 16px;
+  }
+
+  .home-card {
+    padding: 25px 18px;
+  }
+
+  .home-card-title {
+    font-size: 20px;
+  }
+
+  .home-card-subtitle {
+    font-size: 14px;
+  }
+
+  .parents-card {
+    padding: 30px 20px;
+  }
+
+  .parents-title {
+    font-size: 24px;
+  }
+
+  .parent-name-text {
+    font-size: 16px;
+  }
+
+  .dresscode-card {
+    padding: 30px 20px;
+  }
+
+  .dresscode-title {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .dresscode-subtitle {
+    font-size: 16px;
+  }
+
+  .dresscode-option {
+    padding: 20px 18px;
+  }
+
+  .baby-icon {
+    font-size: 45px;
+  }
+
+  .countdown-card {
+    padding: 35px 15px;
+  }
+
+  .countdown-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .countdown-container {
+    gap: 5px;
+    padding: 0 10px;
+  }
+
+  .countdown-item {
+    max-width: 65px;
+    min-width: 50px;
+  }
+
+  .countdown-number {
+    font-size: 28px;
+  }
+
+  .countdown-label {
+    font-size: 10px;
+  }
+
+  .countdown-separator {
+    font-size: 22px;
+    height: 35px;
+    padding: 0 2px;
+  }
+
+  .itinerary-section-card {
+    padding: 30px 20px;
+  }
+
+  .itinerary-header-title {
+    font-size: 22px;
+  }
+
+  .itinerary-event-card {
+    padding: 18px;
+  }
+
+  .itinerary-event-title {
+    font-size: 14px;
+    margin-left: 26px;
+  }
+
+  .location-section-card {
+    padding: 30px 20px;
+  }
+
+  .location-title {
+    font-size: 22px;
+  }
+
+  .location-map-card {
+    padding: 20px 18px;
+  }
+
+  .location-map-container {
+    height: 200px;
+  }
+
+  .rsvp-card {
+    padding: 30px 20px;
+  }
+
+  .rsvp-icon-container {
+    width: 70px;
+    height: 70px;
+  }
+
+  .rsvp-icon {
+    font-size: 28px;
+  }
+
+  .rsvp-title {
+    font-size: 22px;
+  }
+
+  .rsvp-button {
+    padding: 14px 25px;
+  }
+
+  .calendar-card {
+    padding: 30px 20px;
+  }
+
+  .calendar-title {
+    font-size: 24px;
+  }
+
+  .calendar-message {
+    font-size: 13px;
+  }
+
+  .floating-icon {
+    font-size: 25px;
+  }
+}
