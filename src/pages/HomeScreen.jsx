@@ -2,6 +2,10 @@ import React, { useState, useEffect, useRef } from 'react'
 import './HomeScreen.css'
 import { FaBaby, FaUser, FaUserAlt, FaHeart, FaBirthdayCake, FaGamepad, FaUtensils, FaCamera, FaHandHoldingHeart, FaMapMarkerAlt, FaCar, FaComment, FaCalendarPlus } from 'react-icons/fa'
 import { GiPartyPopper, GiBalloons } from 'react-icons/gi'
+import niñooImage from '../../assets/niñoo.png'
+import niñaaImage from '../../assets/niñaa.png'
+import papaImage from '../../assets/papa.png'
+import mamaImage from '../../assets/mama.png'
 
 export default function HomeScreen() {
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 })
@@ -123,6 +127,418 @@ export default function HomeScreen() {
         <FaHeart className="floating-icon icon-8" />
       </div>
       
+      {/* Animación de Ositos Caminando */}
+      <div className="bears-walking-container">
+        <div className="bear-family bear-family-1">
+          <div className="bear bear-papa">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-mama">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-baby">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bear-family bear-family-2">
+          <div className="bear bear-papa">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-mama">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-baby">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bear-family bear-family-3">
+          <div className="bear bear-papa">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-mama">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-baby">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bear-family bear-family-4">
+          <div className="bear bear-papa">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-mama">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-baby">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bear-family bear-family-5">
+          <div className="bear bear-papa">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-mama">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-baby">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bear-family bear-family-6">
+          <div className="bear bear-papa">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-mama">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+          <div className="bear bear-baby">
+            <div className="bear-body">
+              <div className="bear-head">
+                <div className="bear-ear bear-ear-left"></div>
+                <div className="bear-ear bear-ear-right"></div>
+                <div className="bear-face">
+                  <div className="bear-eye bear-eye-left"></div>
+                  <div className="bear-eye bear-eye-right"></div>
+                  <div className="bear-nose"></div>
+                </div>
+              </div>
+              <div className="bear-torso"></div>
+              <div className="bear-arms">
+                <div className="bear-arm bear-arm-left"></div>
+                <div className="bear-arm bear-arm-right"></div>
+              </div>
+              <div className="bear-legs">
+                <div className="bear-leg bear-leg-left"></div>
+                <div className="bear-leg bear-leg-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       {/* Sección Principal */}
       <section className="home-hero-section">
         <div className="home-hero-card">
@@ -146,14 +562,14 @@ export default function HomeScreen() {
           <div className="parents-divider"></div>
           <div className="parents-names-container">
             <div className="parent-name">
-              <FaUser className="parent-icon" />
+              <img src={papaImage} alt="Papá" className="parent-icon" />
               <h2 className="parent-name-text">Genaro González Ángeles</h2>
             </div>
             <div className="parents-heart">
               <FaHeart className="heart-icon" />
             </div>
             <div className="parent-name">
-              <FaUserAlt className="parent-icon" />
+              <img src={mamaImage} alt="Mamá" className="parent-icon" />
               <h2 className="parent-name-text">Abril Caballero Salgado</h2>
             </div>
           </div>
@@ -170,18 +586,20 @@ export default function HomeScreen() {
           <div className="dresscode-prediction">
             <div className="dresscode-option dresscode-boy">
               <div className="dresscode-emoji">
-                <FaBaby className="baby-icon boy-icon" />
+                <img src={niñooImage} alt="Niño" className="baby-icon boy-icon" />
               </div>
               <h3 className="dresscode-option-title">¿Crees que es Niño?</h3>
               <p className="dresscode-option-text">¡Ven vestido de <strong>AZUL</strong>!</p>
+              <p className="dresscode-gift-text">Trae como obsequio <strong>pañales</strong></p>
             </div>
             <div className="dresscode-divider-vertical"></div>
             <div className="dresscode-option dresscode-girl">
               <div className="dresscode-emoji">
-                <FaBaby className="baby-icon girl-icon" />
+                <img src={niñaaImage} alt="Niña" className="baby-icon girl-icon" />
               </div>
               <h3 className="dresscode-option-title">¿Crees que es Niña?</h3>
               <p className="dresscode-option-text">¡Ven vestido de <strong>ROSA</strong>!</p>
+              <p className="dresscode-gift-text">Trae como obsequio <strong>toallitas húmedas</strong></p>
             </div>
           </div>
           <p className="dresscode-description">
